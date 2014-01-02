@@ -1,0 +1,4 @@
+HTTPREQUEST (?:%{NOTSPACE}\.(?<ext>\w+)(\?\S+)?|%{NOTSPACE})
+NGINXLOADBALANCER (?:%{IPORHOST:vhost}|_) %{NOTSPACE:cache} %{NOTSPACE:backend}(, %{NOTSPACE:backendbck})* (?:%{NUMBER:beresponse}(, %{NUMBER:beresponsebck})*|-) (?:%{NUMBER:betime:float}|-)
+COMBINEDAPACHELOGEXT %{IPORHOST:clientip} %{USER:ident} %{USER:auth} \[%{HTTPDATE:timestamp}\] "(?:%{WORD:verb} %{HTTPREQUEST:request}(?: HTTP/%{NUMBER:httpversion})?|%{DATA:rawrequest})" %{NUMBER:response} (?:%{NUMBER:bytes:int}|-) %{QS:referrer} %{QS:agent}
+PHPPATH (?:%{NOTSPACE}.file.%{WORD:template}.tpl.php|%{NOTSPACE})

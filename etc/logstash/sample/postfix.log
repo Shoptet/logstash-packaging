@@ -1,0 +1,100 @@
+Dec 29 01:25:55 cl-news postfix/smtp[19401]: DDEA2B8958: to=<m.frunova@gmal.com>, relay=none, delay=195912, delays=195912/0.03/0.16/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=gmal.com type=MX: Host not found, try again)
+Dec 29 01:25:59 cl-news postfix/smtp[9459]: 87029B8DC8: to=<sugova@istrobanka.sk>, relay=none, delay=195613, delays=195608/0/5/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=istrobanka.sk type=MX: Host not found, try again)
+Dec 29 01:26:00 cl-news postfix/qmgr[9340]: 7E3D3B8125: from=<braunstar@braunstar.cz>, size=40542, nrcpt=1 (queue active)
+Dec 29 01:26:00 cl-news postfix/qmgr[9340]: 563EFB8700: from=<info@krasnetopanky.sk>, size=2800, nrcpt=1 (queue active)
+Dec 29 01:26:00 cl-news postfix/smtp[7659]: connect to mx.sreznam.cz[82.113.55.126]:25: Connection refused
+Dec 29 01:26:00 cl-news postfix/smtp[7659]: connect to mx.sreznam.cz[82.113.55.91]:25: Connection refused
+Dec 29 01:26:00 cl-news postfix/smtp[7659]: 7E3D3B8125: to=<stella1960@sreznam.cz>, relay=none, delay=32668, delays=32668/0/0/0, dsn=4.4.1, status=deferred (connect to mx.sreznam.cz[82.113.55.91]:25: Connection refused)
+Dec 29 01:26:00 cl-news postfix/smtp[7732]: 563EFB8700: to=<becarovamarieta@gmaill.com>, relay=none, delay=195946, delays=195946/0/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=gmaill.com type=MX: Host not found, try again)
+Dec 29 01:26:01 cl-news postfix/smtp[9460]: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out
+Dec 29 01:26:01 cl-news postfix/smtp[7642]: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out
+Dec 29 01:26:01 cl-news postfix/smtp[7642]: C8348B8254: to=<lenkahabina@gmai.com>, relay=none, delay=195958, delays=195937/0/21/0, dsn=4.4.1, status=deferred (connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/smtp[9460]: C4D94B898D: to=<zuz.sturekova@gmai.com>, relay=none, delay=195926, delays=195905/0/21/0, dsn=4.4.1, status=deferred (connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/smtp[4976]: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out
+Dec 29 01:26:01 cl-news postfix/smtp[13101]: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out
+Dec 29 01:26:01 cl-news postfix/smtp[12183]: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out
+Dec 29 01:26:01 cl-news postfix/smtp[4976]: 8B417B86C4: to=<rusnakova.lenkaa@gmai.com>, relay=none, delay=196201, delays=196180/0/21/0, dsn=4.4.1, status=deferred (connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/smtp[12183]: 4ECC6B8311: to=<irena.faltynkova@gmai.com>, relay=none, delay=196209, delays=196188/0/21/0, dsn=4.4.1, status=deferred (connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/smtp[13101]: E69C4B90BA: to=<janik278@gmai.com>, relay=none, delay=195607, delays=195586/0/21/0, dsn=4.4.1, status=deferred (connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18600]: BC793B8637: to=<fabianjana@gmai.com>, relay=none, delay=196188, delays=196167/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18601]: A65B9B861C: to=<elis.hlavacikova@gmai.com>, relay=none, delay=196208, delays=196187/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18600]: D6B3EB96D3: to=<zcertaska@gmai.com>, relay=none, delay=195303, delays=195282/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18601]: 5F2BAB8680: to=<zabojnikovakristina@gmai.com>, relay=none, delay=196205, delays=196184/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18600]: 5EE05B80C4: to=<prasek1950@gmai.com>, relay=none, delay=396291, delays=396270/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18601]: 5471FB86FF: to=<sefcoman@gmai.com>, relay=none, delay=196195, delays=196174/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:01 cl-news postfix/error[18600]: 5836AB8430: to=<governor79@gmai.com>, relay=none, delay=386104, delays=386083/21/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mx.email-srv.com[199.231.85.98]:25: Connection timed out)
+Dec 29 01:26:10 cl-news postfix/qmgr[9340]: C2511B91F7: from=<info@krasnetopanky.sk>, size=2418, nrcpt=1 (queue active)
+Dec 29 01:26:10 cl-news postfix/qmgr[9340]: 4392CB83E7: from=<info@krasnetopanky.sk>, size=2812, nrcpt=1 (queue active)
+Dec 29 01:26:10 cl-news postfix/qmgr[9340]: A3739B827A: from=<info@black-store.cz>, size=2525, nrcpt=1 (queue active)
+Dec 29 01:26:10 cl-news postfix/qmgr[9340]: 5B209B82D7: from=<info@black-store.cz>, size=2525, nrcpt=1 (queue active)
+Dec 29 01:26:10 cl-news postfix/smtp[9459]: connect to hardex.cz[81.31.35.141]:25: Connection refused
+Dec 29 01:26:10 cl-news postfix/smtp[9459]: 5B209B82D7: to=<martan@hardex.cz>, relay=none, delay=154795, delays=154795/0/0/0, dsn=4.4.1, status=deferred (connect to hardex.cz[81.31.35.141]:25: Connection refused)
+Dec 29 01:26:12 cl-news postfix/smtp[15781]: connect to mailin-02.mx.aol.com[64.12.88.164]:25: Connection timed out
+Dec 29 01:26:12 cl-news postfix/smtp[15781]: C0688B81A4: host mailin-03.mx.aol.com[205.188.156.193] refused to talk to me: 554- (RTR:BL)  http://postmaster.info.aol.com/errors/554rtrbl.html 554  Connecting IP: 88.208.118.222
+Dec 29 01:26:13 cl-news postfix/smtp[15781]: C0688B81A4: to=<kacur06@aol.com>, relay=mailin-02.mx.aol.com[64.12.139.193]:25, delay=196240, delays=196196/0/43/0, dsn=4.0.0, status=deferred (host mailin-02.mx.aol.com[64.12.139.193] refused to talk to me: 554- (RTR:BL)  http://postmaster.info.aol.com/errors/554rtrbl.html 554  Connecting IP: 88.208.118.222)
+Dec 29 01:26:15 cl-news postfix/smtp[16733]: connect to mailin-02.mx.aol.com[64.12.91.195]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[16733]: D8C78B8265: to=<annagrittersova@aol.com>, relay=none, delay=195973, delays=195868/0/105/0, dsn=4.4.1, status=deferred (connect to mailin-02.mx.aol.com[64.12.91.195]:25: Connection timed out)
+Dec 29 01:26:15 cl-news postfix/smtp[7641]: connect to mailin-04.mx.aol.com[64.12.91.196]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[7641]: CC067B8AE8: to=<petulda1703@icqmail.com>, relay=none, delay=195912, delays=195807/0/105/0, dsn=4.4.1, status=deferred (connect to mailin-04.mx.aol.com[64.12.91.196]:25: Connection timed out)
+Dec 29 01:26:15 cl-news postfix/smtp[18469]: connect to hotmail.co[65.55.39.12]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[19403]: connect to familyfit.sk[199.59.243.108]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[15780]: connect to agmail.com[72.52.4.90]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[15780]: CE6FCB89ED: to=<valenskavaleria@agmail.com>, relay=none, delay=195930, delays=195907/1.5/21/0, dsn=4.4.1, status=deferred (connect to agmail.com[72.52.4.90]:25: Connection timed out)
+Dec 29 01:26:15 cl-news postfix/smtp[15832]: connect to jj.sk[72.52.4.90]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[18468]: connect to japanembassy.cz[72.52.4.90]:25: Connection timed out
+Dec 29 01:26:15 cl-news postfix/smtp[15832]: 0C939B969E: to=<hj@jj.sk>, relay=none, delay=195323, delays=195302/0/21/0, dsn=4.4.1, status=deferred (connect to jj.sk[72.52.4.90]:25: Connection timed out)
+Dec 29 01:26:15 cl-news postfix/smtp[18468]: 4451FB813F: to=<vacek@japanembassy.cz>, relay=none, delay=402958, delays=402937/0/21/0, dsn=4.4.1, status=deferred (connect to japanembassy.cz[72.52.4.90]:25: Connection timed out)
+Dec 29 01:26:16 cl-news postfix/smtp[11275]: connect to mail.webmagic.com[67.207.67.171]:25: Connection timed out
+Dec 29 01:26:20 cl-news postfix/qmgr[9340]: 69406B92DA: from=<info@krasnetopanky.sk>, size=2406, nrcpt=1 (queue active)
+Dec 29 01:26:20 cl-news postfix/qmgr[9340]: 1565AB9440: from=<info@krasnetopanky.sk>, size=2396, nrcpt=1 (queue active)
+Dec 29 01:26:20 cl-news postfix/qmgr[9340]: 7B379B809F: from=<info@tropicliberec.cz>, size=5617, nrcpt=1 (queue active)
+Dec 29 01:26:20 cl-news postfix/qmgr[9340]: 4ADE7B81C4: from=<info@tropicliberec.cz>, size=5601, nrcpt=1 (queue active)
+Dec 29 01:26:20 cl-news postfix/qmgr[9340]: A40E8B81D1: from=<info@tropicliberec.cz>, size=5611, nrcpt=1 (queue active)
+Dec 29 01:26:30 cl-news postfix/qmgr[9340]: 6EC17B824A: from=<info@aglia.cz>, size=1303, nrcpt=1 (queue active)
+Dec 29 01:26:30 cl-news postfix/qmgr[9340]: D7AC6B81B8: from=<info@tropicliberec.cz>, size=5619, nrcpt=1 (queue active)
+Dec 29 01:26:30 cl-news postfix/qmgr[9340]: DB72AB9695: from=<info@krasnetopanky.sk>, size=2444, nrcpt=1 (queue active)
+Dec 29 01:26:31 cl-news postfix/smtp[9459]: DB72AB9695: to=<zuzana.lukassakova@unicreditleasing.sk>, relay=mail1.cacleasing.sk[62.65.167.114]:25, delay=195342, delays=195342/0/0.02/0.01, dsn=4.1.1, status=deferred (host mail1.cacleasing.sk[62.65.167.114] said: 450 4.1.1 <zuzana.lukassakova@unicreditleasing.sk>: Recipient address rejected: User unknown in local recipient table (in reply to RCPT TO command))
+Dec 29 01:26:31 cl-news postfix/smtp[19402]: connect to hotnail.com[208.73.211.247]:25: Connection timed out
+Dec 29 01:26:31 cl-news postfix/smtp[19401]: connect to siber.cz[217.198.113.104]:25: Connection timed out
+Dec 29 01:26:31 cl-news postfix/smtp[19402]: 4392CB83E7: to=<roberta_zalubelova@hotnail.com>, relay=none, delay=196265, delays=196244/0/21/0, dsn=4.4.1, status=deferred (connect to hotnail.com[208.73.211.247]:25: Connection timed out)
+Dec 29 01:26:31 cl-news postfix/smtp[19401]: A3739B827A: to=<andre.m@siber.cz>, relay=none, delay=154827, delays=154806/0/21/0, dsn=4.4.1, status=deferred (connect to siber.cz[217.198.113.104]:25: Connection timed out)
+Dec 29 01:26:31 cl-news postfix/smtp[12184]: connect to gmail.co[173.194.44.245]:25: Connection timed out
+Dec 29 01:26:31 cl-news postfix/smtp[12183]: 6EC17B824A: host mailin-02.mx.aol.com[64.12.137.162] refused to talk to me: 554- (RTR:BL)  http://postmaster.info.aol.com/errors/554rtrbl.html 554  Connecting IP: 88.208.118.222
+Dec 29 01:26:36 cl-news postfix/smtp[18469]: connect to hotmail.co[207.46.31.61]:25: Connection timed out
+Dec 29 01:26:36 cl-news postfix/smtp[18469]: 91711B8AA9: to=<maxxdeadline@hotmail.co>, relay=none, delay=195942, delays=195900/0/42/0, dsn=4.4.1, status=deferred (connect to hotmail.co[207.46.31.61]:25: Connection timed out)
+Dec 29 01:26:36 cl-news postfix/smtp[19403]: connect to familyfit.sk[199.59.243.106]:25: Connection timed out
+Dec 29 01:26:37 cl-news postfix/smtp[11275]: connect to mail2.webmagic.com[67.207.67.172]:25: Connection timed out
+Dec 29 01:26:37 cl-news postfix/smtp[11275]: AB894B821F: to=<ddd@dd.com>, relay=none, delay=398262, delays=398219/0/43/0, dsn=4.4.1, status=deferred (connect to mail2.webmagic.com[67.207.67.172]:25: Connection timed out)
+Dec 29 01:26:40 cl-news postfix/qmgr[9340]: 87AE3B81C8: from=<info@tropicliberec.cz>, size=5639, nrcpt=1 (queue active)
+Dec 29 01:26:40 cl-news postfix/qmgr[9340]: 4BB73B80EA: from=<braunstar@braunstar.cz>, size=40530, nrcpt=1 (queue active)
+Dec 29 01:26:40 cl-news postfix/qmgr[9340]: 4E1D0B8A3F: from=<info@krasnetopanky.sk>, size=2404, nrcpt=1 (queue active)
+Dec 29 01:26:40 cl-news postfix/qmgr[9340]: 09707B80EF: from=<info@tropicliberec.cz>, size=5659, nrcpt=1 (queue active)
+Dec 29 01:26:40 cl-news postfix/qmgr[9340]: 5C50BB816A: from=<info@tropicliberec.cz>, size=5611, nrcpt=1 (queue active)
+Dec 29 01:26:40 cl-news postfix/smtp[15832]: connect to mx.centzrum.cz[82.113.55.91]:25: Connection refused
+Dec 29 01:26:40 cl-news postfix/smtp[15832]: connect to mx.centzrum.cz[82.113.55.101]:25: Connection refused
+Dec 29 01:26:40 cl-news postfix/smtp[15832]: 5C50BB816A: to=<snorki@centzrum.cz>, relay=none, delay=393322, delays=393322/0.01/0.05/0, dsn=4.4.1, status=deferred (connect to mx.centzrum.cz[82.113.55.101]:25: Connection refused)
+Dec 29 01:26:40 cl-news postfix/smtp[15781]: 87AE3B81C8: to=<lukas.cadek@pharmedical.cz>, relay=mx.mailfilter.cz[37.157.199.230]:25, delay=398292, delays=398292/0/0.11/0.01, dsn=4.7.1, status=deferred (host mx.mailfilter.cz[37.157.199.230] said: 450 4.7.1 <lukas.cadek@pharmedical.cz>: Relay access denied (in reply to RCPT TO command))
+Dec 29 01:26:40 cl-news postfix/smtp[16733]: 4BB73B80EA: host relay.zoner.com[217.198.120.12] said: 452 4.2.2 <jandera@drumel.cz>: Recipient address rejected: Over quota (in reply to RCPT TO command)
+Dec 29 01:26:41 cl-news postfix/smtp[16733]: 4BB73B80EA: to=<jandera@drumel.cz>, relay=relay.zoner.com[217.198.112.201]:25, delay=32975, delays=32974/0/0.7/0.02, dsn=4.2.2, status=deferred (host relay.zoner.com[217.198.112.201] said: 452 4.2.2 <jandera@drumel.cz>: Recipient address rejected: Over quota (in reply to RCPT TO command))
+Dec 29 01:26:41 cl-news postfix/smtp[7732]: connect to spam.tohos.sk[217.73.17.160]:25: Connection timed out
+Dec 29 01:26:41 cl-news postfix/smtp[7659]: connect to inmail.com[205.178.189.131]:25: Connection timed out
+Dec 29 01:26:41 cl-news postfix/smtp[7642]: connect to lazura.cz[81.2.194.128]:25: Connection timed out
+Dec 29 01:26:41 cl-news postfix/smtp[7659]: 69406B92DA: to=<emeseasv@inmail.com>, relay=none, delay=195613, delays=195592/0/21/0, dsn=4.4.1, status=deferred (connect to inmail.com[205.178.189.131]:25: Connection timed out)
+Dec 29 01:26:41 cl-news postfix/smtp[7732]: 1565AB9440: to=<nemam@nemam.sk>, relay=none, delay=195356, delays=195335/0/21/0, dsn=4.4.1, status=deferred (connect to spam.tohos.sk[217.73.17.160]:25: Connection timed out)
+Dec 29 01:26:41 cl-news postfix/smtp[7642]: 7B379B809F: to=<jhartmann@lazura.cz>, relay=none, delay=395973, delays=395952/0/21/0, dsn=4.4.1, status=deferred (connect to lazura.cz[81.2.194.128]:25: Connection timed out)
+Dec 29 01:26:41 cl-news postfix/smtp[9460]: connect to ilo.cz[217.195.164.89]:25: Connection timed out
+Dec 29 01:26:41 cl-news postfix/smtp[9460]: 4ADE7B81C4: to=<marusakk@ilo.cz>, relay=none, delay=394056, delays=394035/0/21/0, dsn=4.4.1, status=deferred (connect to ilo.cz[217.195.164.89]:25: Connection timed out)
+Dec 29 01:26:42 cl-news postfix/smtp[4976]: connect to hajduch.com[72.52.4.90]:25: Connection timed out
+Dec 29 01:26:42 cl-news postfix/smtp[4976]: A40E8B81D1: to=<michal@hajduch.com>, relay=none, delay=406176, delays=406154/0/21/0, dsn=4.4.1, status=deferred (connect to hajduch.com[72.52.4.90]:25: Connection timed out)
+Dec 29 01:26:50 cl-news postfix/qmgr[9340]: 1F9EFB8303: from=<info@dupydup.cz>, size=1817, nrcpt=1 (queue active)
+Dec 29 01:26:50 cl-news postfix/qmgr[9340]: 4221AB81EB: from=<info@shoppingzona.cz>, size=1895, nrcpt=1 (queue active)
+Dec 29 01:26:50 cl-news postfix/qmgr[9340]: AE7E1B818F: from=<info@tropicliberec.cz>, size=5617, nrcpt=1 (queue active)
+Dec 29 01:26:50 cl-news postfix/qmgr[9340]: 3A24AB80E1: from=<braunstar@braunstar.cz>, size=40540, nrcpt=1 (queue active)
+Dec 29 01:26:50 cl-news postfix/smtp[19401]: 3A24AB80E1: host gmail-smtp-in.l.google.com[173.194.70.27] said: 452-4.2.2 The email account that you tried to reach is over quota. Please direct 452-4.2.2 the recipient to 452 4.2.2 http://support.google.com/mail/bin/answer.py?answer=6558 r9si45427534eeo.128 - gsmtp (in reply to RCPT TO command)
+Dec 29 01:26:51 cl-news postfix/smtp[19401]: 3A24AB80E1: to=<nada.river@gmail.com>, relay=alt1.gmail-smtp-in.l.google.com[173.194.71.27]:25, delay=32801, delays=32800/0/0.84/0.49, dsn=4.2.2, status=deferred (host alt1.gmail-smtp-in.l.google.com[173.194.71.27] said: 452-4.2.2 The email account that you tried to reach is over quota. Please direct 452-4.2.2 the recipient to 452 4.2.2 http://support.google.com/mail/bin/answer.py?answer=6558 k8si19445234lag.34 - gsmtp (in reply to RCPT TO command))
+Dec 29 01:26:51 cl-news postfix/smtp[13101]: connect to seznam.cz.cz[81.95.96.23]:25: Connection timed out
+Dec 29 01:26:51 cl-news postfix/smtp[13101]: D7AC6B81B8: to=<t.rihak@seznam.cz.cz>, relay=none, delay=398665, delays=398644/0/21/0, dsn=4.4.1, status=deferred (connect to seznam.cz.cz[81.95.96.23]:25: Connection timed out)
+Dec 29 01:26:52 cl-news postfix/smtp[12184]: connect to gmail.co[173.194.44.246]:25: Connection timed out
+Dec 29 01:26:52 cl-news postfix/smtp[12184]: C2511B91F7: to=<janahorvathova30@gmail.co>, relay=none, delay=195641, delays=195599/0.03/42/0, dsn=4.4.1, status=deferred (connect to gmail.co[173.194.44.246]:25: Connection timed out)
+Dec 29 01:26:52 cl-news postfix/smtp[12183]: connect to mailin-04.mx.aol.com[64.12.91.196]:25: Connection timed out
+Dec 29 01:26:52 cl-news postfix/smtp[12183]: 6EC17B824A: host mailin-01.mx.aol.com[205.188.155.110] refused to talk to me: 554- (RTR:BL)  http://postmaster.info.aol.com/errors/554rtrbl.html 554  Connecting IP: 88.208.118.222
